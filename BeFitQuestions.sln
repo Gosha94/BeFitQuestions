@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{87DADF1D-930F-423B-9310-5F009AEFEABB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{CC53EF01-DC30-4037-A4DC-8657DA2253C9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeFitQuestions.TopologicalGraphSort", "src\BeFitQuestions.TopologicalGraphSort\BeFitQuestions.TopologicalGraphSort.csproj", "{ACB18F89-0F3B-43F7-8425-3B3C6CD25A28}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeFitQuestions.UseCases", "src\BeFitQuestions.UseCases\BeFitQuestions.UseCases.csproj", "{509EF3AC-7E8E-4473-8162-86DBF9C9D5BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeFitQuestions.TopologicalGraphSort.Tests", "tests\BeFitQuestions.TopologicalGraphSort.Tests\BeFitQuestions.TopologicalGraphSort.Tests.csproj", "{77E9AD10-B70D-463D-AB23-40BCA5027CC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACB18F89-0F3B-43F7-8425-3B3C6CD25A28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACB18F89-0F3B-43F7-8425-3B3C6CD25A28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACB18F89-0F3B-43F7-8425-3B3C6CD25A28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACB18F89-0F3B-43F7-8425-3B3C6CD25A28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{509EF3AC-7E8E-4473-8162-86DBF9C9D5BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{509EF3AC-7E8E-4473-8162-86DBF9C9D5BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{509EF3AC-7E8E-4473-8162-86DBF9C9D5BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{509EF3AC-7E8E-4473-8162-86DBF9C9D5BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77E9AD10-B70D-463D-AB23-40BCA5027CC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77E9AD10-B70D-463D-AB23-40BCA5027CC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77E9AD10-B70D-463D-AB23-40BCA5027CC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77E9AD10-B70D-463D-AB23-40BCA5027CC4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ACB18F89-0F3B-43F7-8425-3B3C6CD25A28} = {87DADF1D-930F-423B-9310-5F009AEFEABB}
+		{509EF3AC-7E8E-4473-8162-86DBF9C9D5BB} = {87DADF1D-930F-423B-9310-5F009AEFEABB}
+		{77E9AD10-B70D-463D-AB23-40BCA5027CC4} = {CC53EF01-DC30-4037-A4DC-8657DA2253C9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {642D8C67-3B60-4F5C-B1E7-A11FE632DAEC}
+	EndGlobalSection
+EndGlobal
