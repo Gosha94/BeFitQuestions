@@ -24,9 +24,9 @@ internal class GraphCorrectArrayTestCases : IEnumerable<object[]>
             { 0, 0, 0, 0, 0 }
         };
 
-        var expectedDataList = new List<List<int>>
+        var expectedDataList = new List<int>[]
         {
-            new List<int> {4, 1, 5, 2, 3}
+            new() {4, 1, 5, 2, 3}
         };
 
         return new object[] { testCases, expectedDataList };
@@ -43,7 +43,7 @@ internal class GraphCorrectArrayTestCases : IEnumerable<object[]>
             { 0, 1, 0, 0 }
         };
 
-        var expectedDataList = new List<List<int>>
+        var expectedDataList = new List<int>[]
         {
             new() { 4, 3, 2, 1 },
             new() { 3, 4, 2, 1 }

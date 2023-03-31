@@ -24,7 +24,7 @@ public class GraphShould
 
     [Theory]
     [ClassData(typeof(GraphCorrectArrayTestCases))]
-    public void CreateGraph_WithCorrectMatrix_SuccessResultHitInTheResultsList(double[,] testCaseData, IList<IList<int>> expectedDataList)
+    public void CreateGraph_WithCorrectMatrix_SuccessResultHitInTheResultsList(double[,] testCaseData, List<int>[] expectedDataArr)
     {
         // Arrange
         var sut = Graph.Create(testCaseData);
@@ -33,8 +33,8 @@ public class GraphShould
         var actualResult = sut.TopologicalSort();
 
         // Assert
-        //Assert.True(actualResult.Intersect(expectedDataList[0]).Any() ||
-        //            actualResult.Intersect(expectedDataList[1]).Any());
+        Assert.True(actualResult.Intersect(expectedDataArr[0]).Any() ||
+                    actualResult.Intersect(expectedDataArr[1]).Any());
     }
 
 
